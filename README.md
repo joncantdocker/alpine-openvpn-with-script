@@ -1,7 +1,7 @@
 Based on the 
 Setup a tiny(12MB), but full featured and secure OpenVPN server without effort using Docker.
 
-##Either follow the Quickstart or use my script
+## Either follow the Quickstart or use my script
 
 ## rlesouef's Quick Start Guide
 
