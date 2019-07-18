@@ -1,4 +1,4 @@
-## Note currently the fixing-the-script branch is the most functioning one and will be combined back as soon as it is tested.
+
 Based on the 
 Setup a tiny(12MB), but full featured and secure OpenVPN server without effort using Docker.
 
