@@ -1,9 +1,6 @@
 # OpenVPN for Docker
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chadoe/docker-openvpn/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/martin/openvpn.svg)](https://hub.docker.com/r/martin/openvpn/)
-[![Docker Stars](https://img.shields.io/docker/stars/martin/openvpn.svg)](https://hub.docker.com/r/martin/openvpn/)
-
+## Either run my script serverconfig.sh or use rlesouef's quickstart below
 
 Setup a tiny(12MB), but full featured and secure OpenVPN server without effort using Docker.
 
@@ -90,5 +87,6 @@ Setup a tiny(12MB), but full featured and secure OpenVPN server without effort u
   * Android, OpenVPN for Android 0.6.50
   * Windows 10 64 bit using openvpn-2.4.0
 
-
-Based on [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn).
+Based on [rlesouef/alpine-openvpn] (https://github.com/rlesouef/alpine-openvpn)
+which is
+Based on [kylemanna/docker-openvpn] (https://github.com/kylemanna/docker-openvpn).
