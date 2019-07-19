@@ -1,10 +1,13 @@
+# OpenVPN for Docker
 
-Based on the 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chadoe/docker-openvpn/master/LICENSE)
+[![Docker Pulls](https://img.shields.io/docker/pulls/martin/openvpn.svg)](https://hub.docker.com/r/martin/openvpn/)
+[![Docker Stars](https://img.shields.io/docker/stars/martin/openvpn.svg)](https://hub.docker.com/r/martin/openvpn/)
+
+
 Setup a tiny(12MB), but full featured and secure OpenVPN server without effort using Docker.
 
-## Either follow the Quickstart or use my script
-
-## rlesouef's Quick Start Guide
+## Quick Start
 
 1. Create the `$OVPN_DATA` volume container 
 
@@ -88,4 +91,4 @@ Setup a tiny(12MB), but full featured and secure OpenVPN server without effort u
   * Windows 10 64 bit using openvpn-2.4.0
 
 
-Based on rlesouef/alpine-openvpn(https://github.com/rlesouef/alpine-openvpn).
+Based on [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn).
