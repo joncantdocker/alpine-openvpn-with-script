@@ -51,6 +51,8 @@ if [ ! -f "$EASYRSA_PKI/private/${cn}.key" ]; then
 fi
 
 cat <<EOF
+push "route-nopull"
+push "route 172.20.10.3 255.255.255.0 vpn_gateway"
 client
 tls-client
 nobind
@@ -89,10 +91,6 @@ remote $OVPN_CN $OVPN_PORT $OVPN_PROTO
 route-delay 2
 
 EOF
-
-if [ "$OVPN_DEFROUTE" != "0" ];then
-    echo "redirect-gateway def1"
-fi
 
 if [ -n "$OVPN_MTU" ]; then
     echo "tun-mtu $OVPN_MTU"
