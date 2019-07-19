@@ -92,6 +92,10 @@ route-delay 2
 
 EOF
 
+if [ "$OVPN_DEFROUTE" != "0" ];then
+	echo ""
+fi
+
 if [ -n "$OVPN_MTU" ]; then
     echo "tun-mtu $OVPN_MTU"
 fi
